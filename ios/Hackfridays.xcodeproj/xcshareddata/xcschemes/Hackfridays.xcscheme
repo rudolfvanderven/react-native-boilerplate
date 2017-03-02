@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "ToPack.app"
-               BlueprintName = "ToPack"
-               ReferencedContainer = "container:ToPack.xcodeproj">
+               BuildableName = "Hackfridays.app"
+               BlueprintName = "Hackfridays"
+               ReferencedContainer = "container:Hackfridays.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ToPackTests.xctest"
-               BlueprintName = "ToPackTests"
-               ReferencedContainer = "container:ToPack.xcodeproj">
+               BuildableName = "HackfridaysTests.xctest"
+               BlueprintName = "HackfridaysTests"
+               ReferencedContainer = "container:Hackfridays.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ToPackTests.xctest"
-               BlueprintName = "ToPackTests"
-               ReferencedContainer = "container:ToPack.xcodeproj">
+               BuildableName = "HackfridaysTests.xctest"
+               BlueprintName = "HackfridaysTests"
+               ReferencedContainer = "container:Hackfridays.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ToPack.app"
-            BlueprintName = "ToPack"
-            ReferencedContainer = "container:ToPack.xcodeproj">
+            BuildableName = "Hackfridays.app"
+            BlueprintName = "Hackfridays"
+            ReferencedContainer = "container:Hackfridays.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ToPack.app"
-            BlueprintName = "ToPack"
-            ReferencedContainer = "container:ToPack.xcodeproj">
+            BuildableName = "Hackfridays.app"
+            BlueprintName = "Hackfridays"
+            ReferencedContainer = "container:Hackfridays.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ToPack.app"
-            BlueprintName = "ToPack"
-            ReferencedContainer = "container:ToPack.xcodeproj">
+            BuildableName = "Hackfridays.app"
+            BlueprintName = "Hackfridays"
+            ReferencedContainer = "container:Hackfridays.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

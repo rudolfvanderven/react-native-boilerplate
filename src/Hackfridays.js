@@ -70,7 +70,7 @@ function getInitialState () {
  * ```configureStore``` with the ```initialState```
  */
 export default function native (platform) {
-  let ToPack = React.createClass({
+  let Hackfridays = React.createClass({
     render () {
       // configureStore will combine reducers from main application
       // it will then create the store based on aggregate state from all reducers
@@ -93,5 +93,5 @@ export default function native (platform) {
      * registerComponent to the AppRegistery and off we go....
      */
 
-  AppRegistry.registerComponent('topack', () => ToPack)
+  AppRegistry.registerComponent('hackfridays', () => Hackfridays)
 }

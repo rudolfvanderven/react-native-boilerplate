@@ -1,5 +1,5 @@
 {
-    "name": "ToPack",
+    "name": "Hackfridays",
     "version": "0.2.0",
     "private": true,
     "jest": {
@@ -21,7 +21,7 @@
         "start": "react-native start",
         "test:watch": "npm run test -- --watch",
         "test-chrome": "node-debug --preload false --nodejs --harmony jest --runInBand",
-        "docs": "./node_modules/docker/docker -w -i src/ -o ../ToPack-pages ",
+        "docs": "./node_modules/docker/docker -w -i src/ -o ../Hackfridays-pages ",
         "postinstall": "remotedev-debugger [options]"
     },
     "dependencies": {

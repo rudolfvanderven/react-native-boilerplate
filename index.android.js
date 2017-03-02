@@ -1,6 +1,6 @@
 'use strict'
 
-import ToPack from './src/ToPack'
+import Hackfridays from './src/Hackfridays'
 
-ToPack('android')
+Hackfridays('android')
 
