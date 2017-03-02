@@ -1,6 +1,6 @@
-HackFridays: Mobile React 101 package
+HackFridays: Mobile React 101 package starter
 ==================================
-A simple To-Pack List App for HackFridays: Mobile React 101 package.
+A simple starter kit for HackFridays: Mobile React 101 package.
 
 ## Installation
 
@@ -8,7 +8,7 @@ A simple To-Pack List App for HackFridays: Mobile React 101 package.
 
 * [Install React-Native](https://facebook.github.io/react-native/docs/getting-started.html#content)
 
-2.  Clone 2pack-list: `https://github.com/Cloudoki/2pack-list.git`
+2.  Clone the starter: `https://github.com/Cloudoki/react-native-boilerplate.git`
 
 3.  Install project dependencies
 
@@ -23,7 +23,7 @@ A simple To-Pack List App for HackFridays: Mobile React 101 package.
 react-native start
 ```
 
-### Starting the Android Virtual Device (for Android only)
+### Starting the Android Virtual Device
 ```
 android avd
 ```
