@@ -2,37 +2,47 @@ HackFridays: Mobile React 101 package starter
 ==================================
 A simple starter kit for HackFridays: Mobile React 101 package.
 
+
 ## Installation
 
-1. Follow the instructions on React Native's official documentation depending on your development operating system:
+1.  Please make sure to carefully follow all the instructions on React Native's official documentation depending on your development operating system:
+    * [Getting Started with React-Native](https://facebook.github.io/react-native/docs/getting-started.html#content)
 
-* [Install React-Native](https://facebook.github.io/react-native/docs/getting-started.html#content)
+2.  Clone the starter kit: `https://github.com/Cloudoki/react-native-boilerplate.git`
 
-2.  Clone the starter: `https://github.com/Cloudoki/react-native-boilerplate.git`
-
-3.  Install project dependencies
-
-```
-  npm install
-```
+3.  Install project dependencies:
+    `npm install`
 
 ## Testing your React Native Installation
 
+After following the React Native's tutorial and installing all the project dependencies, you should be able to run and test your mobile application.
+
 ### Run React Native Packager
+
+The [React Native Packager](https://github.com/facebook/react-native/tree/master/packager) is similar to Webpack, providing a CommonJS-like module system, JavaScript compilation (ES6, Flow, JSX), bundling, and asset loading.
 ```
 react-native start
 ```
 
-### Starting the Android Virtual Device
-```
-android avd
-```
-
 ### Running the App
-```
-react-native run-android
-react-native run-ios
-```
+
+#### For Android:
+
+1.  In Android Studio, open the project located in the `android` folder.
+2.  Go to Tools -> Android -> AVD Manager
+3.  Create a Virtual Device (See the example below)
+
+    ![alt tag](./screenshots/AVD.png)
+
+4.  Run your Virtual Device
+5.  Finally run the app with `react-native run-android`
+
+#### For iOS:
+
+The process for running your app in iOS is more straightforward. Just run `react-native run-ios` command and you should see your app running in the iOS Simulator shortly. You can also run it directly from within Xcode by opening the project located in `ios/Hackfridays.xcodeproj`.
+
+**Note:** If you want to test your app on an actual device, follow the instructions [Running on Device](https://facebook.github.io/react-native/docs/running-on-device.html).
+
 
 ## Project File Structure
 ```
@@ -57,7 +67,7 @@ react-native run-ios
 │   ├── reducers              # Redux reducers. Your state is altered here based on actions
 │       ├── index.js          # Combines all reducers into one
 │   ├── store                 # Redux store configuration
-│   ├── ToPack.js             # Entry point for your app
+│   ├── Hackfridays.js             # Entry point for your app
 ```
 
 
