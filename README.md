@@ -39,7 +39,11 @@ react-native start
 
 #### For iOS:
 
+##### *** WARNING ***
+Due to some React Native breaking changes, the installation for iOS requires an additional command `react-native upgrade` and to accept (press Y) to upgrade all the suggested files.
+
 The process for running your app in iOS is more straightforward. Just run `react-native run-ios` command and you should see your app running in the iOS Simulator shortly. You can also run it directly from within Xcode by opening the project located in `ios/Hackfridays.xcodeproj`.
+
 
 **Note:** If you want to test your app on an actual device, follow the instructions [Running on Device](https://facebook.github.io/react-native/docs/running-on-device.html).
 
