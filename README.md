@@ -17,6 +17,12 @@ A simple starter kit for HackFridays: Mobile React 101 package.
 
 After following the React Native's tutorial and installing all the project dependencies, you should be able to run and test your mobile application.
 
+### Upgrade React
+
+```
+react-native upgrade
+```
+
 ### Run React Native Packager
 
 The [React Native Packager](https://github.com/facebook/react-native/tree/master/packager) is similar to Webpack, providing a CommonJS-like module system, JavaScript compilation (ES6, Flow, JSX), bundling, and asset loading.
